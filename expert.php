@@ -50,22 +50,21 @@ new_exercise(4);
 // Look up whats going wrong with this code, and then fix it
 // Bonus: can you fix it with changing just one character? (hard)
 
-foreach($week as &$day)
-{
+foreach($week as &$day) {
     $day = substr($day, 0, -3);
 }
 
 print_r($week);
 
 
+new_exercise(5);
+// === Exercise 5 ===
+// The result should be: "Copyright © <current year> - BeCode"
+function copyright($year) {
+    return "&copy; $year BeCode";
 
-
-
-
-
-
-
-
-
+}
+//print the copyright
+echo copyright(date('Y'));
 
 
