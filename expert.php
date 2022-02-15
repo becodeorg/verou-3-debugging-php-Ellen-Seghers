@@ -32,5 +32,3 @@ $week = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "su
 $monday = $week[0];
 
 echo $monday;
-
-
